@@ -1,1 +1,12 @@
-<link rel="stylesheet" type="text/css" href="./estilo.css">
+h1{
+        front-size:24px;
+        color:yellow
+      }
+      h2{
+        front-size:25px;
+        color:green
+      }
+      h3{
+        front-size:25px;
+        color:blue
+      }
