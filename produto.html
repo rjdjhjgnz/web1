@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página do Produto</title>
+    <link rel="stylesheet" href="produto.css">
+</head>
+<body>
+    <header>
+        <h1>Cabeçalho do Site</h1>
+    </header>
+
+    <main>
+        <div class="product">
+            <div>
+                <img src="produto (1).jpg" alt="Imagem do Produto">
+            </div>
+            <div class="description">
+                <h2>relogio tic-tac</h2>
+                <p>Marca a hora e tem um mapa.</p>
+            </div>
+            <div class="buttons">
+                <button onclick="comprar()">Comprar</button>
+                <button onclick="calcularFrete()">Calcular Frete</button>
+            </div>
+        </div>
+    </main>
+    
+    <script>
+        function comprar() {
+            alert("Adicionando o produto ao carrinho...");
+        }
+        
+        function calcularFrete() {
+            alert("Calculando o frete...");
+        }
+    </script>
+</body>
+</html>
